@@ -1,0 +1,18 @@
+/* TEAM */
+	Oq sou: Meu Nome.
+	Site: Meu Site.
+	Twitter: @meuContato.
+	Location: Minha Localização.
+
+							
+/* THANKS */
+	Name: Alguem
+
+							
+/* SITE */
+	Last update: 2021/02/26
+	Language: Portugues
+	Doctype: HTML5
+	Web Languages: HTML5, CSS3, JS
+	Components: Vue.js, etc
+	Tools: VSCode

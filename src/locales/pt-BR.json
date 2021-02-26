@@ -1,0 +1,92 @@
+{
+  "pages": {
+    "error": {
+      "404Page": {
+        "html": {
+          "title": "Página nâo encontrada"
+        }
+      }
+    },
+    "system": {
+      "user": {
+        "dashboardPage": {
+          "html": {
+            "title": "Dashboard"
+          }
+        }
+      },
+      "adm": {
+        "dashboardPage": {
+          "html": {
+            "title": "Dashboard"
+          }
+        }
+      }
+    },
+    "website": {
+      "loginPage": {
+        "html": {
+          "title": "Login"
+        },
+        "title": "Bem vindo ao"
+      },
+      "homePage": {
+        "html": {
+          "title": "Home"
+        },
+        "title": "Entreada"
+      },
+      "aboutPage": {
+        "html": {
+          "title": "Sobre"
+        },
+        "title": "Sobre"
+      }
+    }
+  },
+  "menu": {
+    "system": {
+      "profile": "Perfil"
+    },
+    "website": {
+      "home": "Entreada",
+      "about": "Sobre",
+      "login": "ADM"
+    }
+  },
+  "buttons": {
+    "save": "Salvar",
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "create": "Criar",
+    "delete": "Deletar",
+    "forgotPassword": "Esqueceu a senha?",
+    "newUser": "Sou novato!",
+    "signIn": "Entrar",
+    "logOut": "Sair",
+    "send": "Enviar"
+  },
+  "inputs": {
+    "username": {
+      "placeholder": "usuario"
+    },
+    "password": {
+      "placeholder": "senha",
+      "name": "inputpassword"
+    }
+  },
+  "errors": {
+    "api": {}
+  },
+  "messages": {
+    "general": {},
+    "pages": {
+      "system": {},
+      "website": {
+        "homePage": {
+          "success": "Algum sucesso"
+        }
+      }
+    }
+  }
+}

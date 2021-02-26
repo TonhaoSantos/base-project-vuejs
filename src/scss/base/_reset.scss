@@ -1,0 +1,32 @@
+// File: _reset.scss
+// This file contains reset config.
+/* STYLES GO HERE */
+@charset 'UTF-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+*,*::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: 'Lato Regular', Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-style: normal;
+  font-weight: light;
+  line-height:  1.42857143;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255,255,255,1);
+  // -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}

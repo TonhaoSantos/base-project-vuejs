@@ -1,0 +1,575 @@
+// File: _general.scss
+// This file contains general config.
+/* STYLES GO HERE */
+
+/*
+* TEST COLORS
+*/
+.color1 {
+  background-color: tomato;
+}
+.color2 {
+  background-color: green;
+}
+.color3 {
+  background-color: orange;
+}
+.color4 {
+  background-color: blueviolet;
+}
+.color5 {
+  background-color: blue;
+}
+.color6 {
+  background-color: yellow;
+}
+.color7 {
+  background-color: red;
+}
+.color8 {
+  background-color: cyan;
+}
+
+
+/*
+* General class's
+*/
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-inline_block {
+  display: inline-block !important;
+}
+
+
+/*
+* IMG
+*/
+.rounded {
+  border-radius: 6px;
+}
+.circle {
+  border-radius: 50%;
+}
+.circle-border {
+  padding: 7px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 50%;
+}
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+  line-height: inherit;
+  border: 0;
+  border-radius: 0;
+  padding: 7px;
+  background-color: #f5f5f5;
+}
+.img-responsive-width {
+  width: 100%;
+  height: auto;
+}
+.img-responsive-height {
+  width: auto;
+  height: 100%;
+}
+
+
+
+/*
+* GERAL
+*/
+a {
+  color: #2980B9;
+  text-decoration: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: #2c3e50;
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: thin dotted;
+    outline: 1px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+}
+label {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: default;
+}
+hr {
+  display: block;
+  height: 1px;
+  padding: 0;
+  margin: 1px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: inherit;
+}
+h1 {
+  font-size: 3.6em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2.4em;
+}
+h4 {
+  font-size: 1.8em;
+}
+h5 {
+  font-size: 1.4em;
+}
+h6 {
+  font-size: 1.2em;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 0 0 10px;
+}
+abbr[title],
+abbr[data-text-help] {
+  border-bottom: 1px dotted #777;
+}
+abbr[data-text-help] {
+  cursor:help;
+}
+dfn,
+dfn[title] {
+  font-style: italic;
+  border-bottom: 1px dotted #777;
+}
+dfn[data-text-help] {
+  display: none;
+}
+dfn abbr,
+dfn abbr[title],
+dfn[title] abbr,
+dfn[title] abbr[title] {
+  font-style: normal;
+  border-bottom: 1px dotted #777;
+}
+del,
+s {
+  text-decoration: line-through;
+}
+ins,
+u {
+  text-decoration: underline;
+}
+q {
+  display: inline;
+}
+q,cite,
+em {
+  font-size: inherit;
+  font-style: italic;
+}
+q::before,
+cite::before {
+  content:  "\00a0\0022";
+}
+q::after,
+cite::after {
+  content: "\0022\00a0";
+}
+strong {
+  font-weight: bold;
+}
+sub {
+  vertical-align: sub;
+}
+sub,sup {
+  font-size: smaller;
+}
+sup {
+  vertical-align: super;
+}
+.spotlight {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 25px 0 10px;
+  border-bottom: 1px solid #eee;
+}
+.credit,
+.author {
+  font-size: 80%;
+  color: #777;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-justify {
+  text-align: justify;
+}
+.txt-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.txt-overflow-clip {
+  text-overflow: clip;
+}
+.txt-overflow-clip,
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+.txt-nowrap {
+  white-space: nowrap;
+}
+.txt-direction {
+  direction: ltr;
+  direction: rtl;
+}
+.txt-indent1x {
+  text-indent: 10px;
+}
+.txt-indent2x {
+  text-indent: 20px;
+}
+.txt-indent3x {
+  text-indent: 30px;
+}
+.txt-indent4x {
+  text-indent: 40px;
+}
+.txt-indent5x {
+  text-indent: 50px;
+}
+.txt-decoration_ol {
+  text-decoration: overline;
+}
+.txt-decoration_lt {
+  text-decoration: line-through;
+}
+.txt-decoration_ul {
+  text-decoration: underline;
+}
+.txt-uppercase {
+  text-transform: uppercase;
+}
+.txt-lowercase {
+  text-transform: lowercase;
+}
+.txt-capitalize {
+  text-transform: capitalize;
+}
+.txt-vertical-top {
+  vertical-align:text-top;
+}
+.txt-vertical-middle {
+  vertical-align:middle;
+}
+.txt-vertical-bottom {
+  vertical-align:text-bottom;
+}
+.none-margin {
+  margin: 0;
+}
+.none-margin-top {
+  margin-top: 0;
+}
+.none-margin-right {
+  margin-right: 0;
+}
+.none-margin-bottom {
+  margin-bottom: 0;
+}
+.none-margin-left {
+  margin-left: 0;
+}
+.fixed {
+  position: fixed;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.hidden {
+  display: none !important;
+}
+.txt-hidden {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  border: 0;
+  background-color: transparent;
+}
+.unselectable {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.clear-left,
+.clear-right {
+  clear: left;
+}
+.clear-both {
+  clear: both;
+}
+.clear-none {
+  clear: none;
+}
+.sronly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sronly-focus:active,
+.sronly-focus:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  background-clip: auto;
+}
+.ico-1x {
+  font-size: 1em;
+}
+.ico-2x {
+  font-size: 2em;
+}
+.ico-3x {
+  font-size: 3em;
+}
+.ico-4x {
+  font-size: 4em;
+}
+.ico-5x {
+  font-size: 5em;
+}
+.ico-6x {
+  font-size: 6em;
+}
+.ico-7x {
+  font-size: 7em;
+}
+.ico-8x {
+  font-size: 8em;
+}
+.ico-9x {
+  font-size: 9em;
+}
+.ico-10x {
+  font-size: 10em;
+}
+.txt-muted {
+  color: #95a5a6;
+}
+.txt-primary {
+  color: #1abc9c;
+}
+a.txt-primary:hover,
+a.txt-primary:focus {
+  color: #16a085;
+}
+.txt-success {
+  color: #2ecc71;
+}
+a.txt-success:hover,
+a.txt-success:focus {
+  color: #27ae60;
+}
+.txt-info {
+  color: #3498db;
+}
+a.txt-info:hover,
+a.txt-info:focus {
+  color: #2980b9;
+}
+.txt-warning {
+  color: #f1c40f;
+}
+a.txt-warning:hover,
+a.txt-warning:focus {
+  color: #f39c12;
+}
+.txt-danger {
+  color: #e74c3c;
+}
+a.txt-danger:hover,
+a.txt-danger:focus {
+  color: #c0392b;
+}
+.bg-default {
+  color: #fff;
+  background-color: #7f8c8d;
+}
+.bg-default:hover,
+.bg-default:focus {
+  background-color: #000;
+}
+.bg-primary {
+  color: #fff;
+  background-color: #1abc9c;
+}
+.bg-primary:hover,
+.bg-primary:focus {
+  background-color: #16a085;
+}
+.bg-success {
+  color: #fff;
+  background-color: #2ecc71;
+}
+.bg-success:hover,
+.bg-success:focus {
+  background-color: #27ae60;
+}
+.bg-info {
+  color: #fff;
+  background-color: #3498db;
+}
+.bg-info:hover,
+.bg-info:focus {
+  background-color: #2980b9;
+}
+.bg-warnig {
+  color: #fff;
+  background-color: #f1c40f;
+}
+.bg-warnig:hover,
+.bg-warnig:focus {
+  background-color: #f39c12;
+}
+.bg-danger {
+  color: #fff;
+  background-color: #e74c3c;
+}
+.bg-danger:hover,
+.bg-danger:focus {
+  background-color: #c0392b;
+}
+.bg-normal {
+  color: #fff;
+  background-color: #85c1e9;
+}
+.bg-normal:hover,
+.bg-normal:focus {
+  background-color: #70b6e5;
+}
+code,samp,kbd,var {
+  font-family: monospace;
+}
+var {
+  font-style: italic;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
+}
+code {
+  color: #c7254e;
+  padding: 2px 4px;
+  background-color: #f9f2f4;
+}
+code,kbd {
+  font-size: .9em;
+}
+kbd {
+  color: #fff;
+  background-color: #333;
+}
+kbd,var {
+  padding: 2px 4px;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+      box-shadow: none;
+}
+var {
+  font-size: 1.2em;
+  color: #333;
+}
+kbd > kbd {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+      box-shadow: none;
+}
+pre {
+  font-size: 0.9em;
+  line-height: 1.42857143;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #000;
+}
+pre code {
+  font-size: inherit;
+}
+pre code,pre var {
+  color: inherit;
+  padding: 0;
+  white-space: pre-wrap;
+  background-color: transparent;
+}
+pre var {
+  font-size: 1.2em;
+}

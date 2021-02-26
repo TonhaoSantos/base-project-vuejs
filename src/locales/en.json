@@ -1,0 +1,92 @@
+{
+  "pages": {
+    "error": {
+      "404Page": {
+        "html": {
+          "title": "Page not found"
+        }
+      }
+    },
+    "system": {
+      "user": {
+        "dashboardPage": {
+          "html": {
+            "title": "Dashboard"
+          }
+        }
+      },
+      "adm": {
+        "dashboardPage": {
+          "html": {
+            "title": "Dashboard"
+          }
+        }
+      }
+    },
+    "website": {
+      "loginPage": {
+        "html": {
+          "title": "Login"
+        },
+        "title": "Welcome to"
+      },
+      "homePage": {
+        "html": {
+          "title": "Home"
+        },
+        "title": "Home"
+      },
+      "aboutPage": {
+        "html": {
+          "title": "About"
+        },
+        "title": "About"
+      }
+    }
+  },
+  "menu": {
+    "system": {
+      "profile": "Profile"
+    },
+    "website": {
+      "home": "Home",
+      "about": "About",
+      "login": "ADM"
+    }
+  },
+  "buttons": {
+    "save": "Save",
+    "close": "Close",
+    "cancel": "Cancel",
+    "create": "Create",
+    "delete": "Delete",
+    "forgotPassword": "Forgot password?",
+    "newUser": "I'm a newbie!",
+    "signIn": "Login",
+    "logOut": "Logout",
+    "send": "Send"
+  },
+  "inputs": {
+    "username": {
+      "placeholder": "username"
+    },
+    "password": {
+      "placeholder": "password",
+      "name": "inputpassword"
+    }
+  },
+  "errors": {
+    "api": {}
+  },
+  "messages": {
+    "general": {},
+    "pages": {
+      "system": {},
+      "website": {
+        "homePage": {
+          "success": "Success some"
+        }
+      }
+    }
+  }
+}

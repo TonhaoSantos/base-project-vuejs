@@ -1,0 +1,20 @@
+// File: _typography.scss
+// This file contains typography config.
+/* STYLES GO HERE */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('../../fonts/Lato-Regular.eot');
+  src: url('../../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/Lato-Regular.woff2') format('woff2'),
+      url('../../fonts/Lato-Regular.woff') format('woff'),
+      url('../../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-awesome {
+  font-family: 'FontAwesome';
+}

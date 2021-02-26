@@ -1,0 +1,7 @@
+# Aviso: Crawling este site é proibido a menos que tenha permissão expressa por escrito.
+# Contato: contact@dominio.algo
+
+User-agent: *
+Sitemap: https://www.dominio.algo/sitemap.xml
+Disallow: /404
+allow: /img
