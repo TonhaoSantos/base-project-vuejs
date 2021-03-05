@@ -4,7 +4,7 @@
       <TheNavbarDashboard />
     </div>
 
-    <div>
+    <div class="conteudo">
       <router-view/>
     </div>
   </div>
@@ -40,4 +40,26 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.conteudo {
+  height: 100vh;
+  background: cyan;
+  margin-left: 0;
+  margin-top: 50px;
+  padding: 10px;
+
+  @media screen and (min-width: 375px) {}
+  @media screen and (min-width: 425px) {}
+  @media screen and (min-width: 576px) {}
+  @media screen and (min-width: 768px) {
+    top: 0;
+    left: 0;
+    right: initial;
+    height: 100vh;
+    margin-left: 70px;
+    margin-top: 0;
+    padding: 10px;
+  }
+  @media screen and (min-width: 1024px) {}
+  @media screen and (min-width: 1600px) {}
+}
 </style>

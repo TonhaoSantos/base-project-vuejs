@@ -63,7 +63,7 @@
     "forgotPassword": "Esqueceu a senha?",
     "newUser": "Sou novato!",
     "signIn": "Entrar",
-    "logOut": "Sair",
+    "signOut": "Sair",
     "send": "Enviar"
   },
   "inputs": {

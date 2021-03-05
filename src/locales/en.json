@@ -63,7 +63,7 @@
     "forgotPassword": "Forgot password?",
     "newUser": "I'm a newbie!",
     "signIn": "Login",
-    "logOut": "Logout",
+    "signOut": "Signout",
     "send": "Send"
   },
   "inputs": {

@@ -15,7 +15,7 @@
         <router-link :to="{ name: 'UserDashboardPage' }">User Dashboard</router-link> |
       </div>
 
-      <button  @click.prevent="logout" >{{ $t('buttons.logOut') }}</button> |
+      <button  @click.prevent="logout" >{{ $t('buttons.signOut') }}</button> |
     </div>
 
     <BaseSelectTranslation />

@@ -1,6 +1,8 @@
 <template>
   <div class="dashboard-admin">
     <p>Dashboard Admin Page View</p>
+
+    <button>Click aqui</button>
   </div>
 </template>
 
@@ -13,7 +15,9 @@ export default {
     }
   },
   beforeCreate () {},
-  created () {},
+  created () {
+    console.log('tela criada')
+  },
   beforeMount () {},
   mounted () {},
   beforeUpdate () {},
@@ -26,7 +30,13 @@ export default {
   props: {},
   components: {},
   computed: {},
-  methods: {},
+  methods: {
+    clicado (value) {
+      localStorage.setItem('clicado', values)
+
+      alert('foi clicado')
+    }
+  },
   filters: {},
   watch: {}
 }
