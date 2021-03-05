@@ -2,7 +2,7 @@
   <div class="dashboard-admin">
     <p>Dashboard Admin Page View</p>
 
-    <button>Click aqui</button>
+    <button @click="clicadu">Click aqui</button>
   </div>
 </template>
 
@@ -15,9 +15,7 @@ export default {
     }
   },
   beforeCreate () {},
-  created () {
-    console.log('tela criada')
-  },
+  created () {},
   beforeMount () {},
   mounted () {},
   beforeUpdate () {},
