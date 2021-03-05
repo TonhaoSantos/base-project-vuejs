@@ -64,7 +64,7 @@ export default {
     left: 0;
     right: initial;
     height: 100vh;
-  width: 70px;
+    width: 70px;
   }
   @media screen and (min-width: 1024px) {}
   @media screen and (min-width: 1600px) {}

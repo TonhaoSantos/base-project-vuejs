@@ -2,7 +2,7 @@
   <div class="dashboard-admin">
     <p>Dashboard Admin Page View</p>
 
-    <button @click="clicadu">Click aqui</button>
+    <button @click="clicado">Click aqui</button>
   </div>
 </template>
 
