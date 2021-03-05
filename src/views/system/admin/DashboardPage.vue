@@ -30,7 +30,7 @@ export default {
   computed: {},
   methods: {
     clicado (value) {
-      localStorage.setItem('clicado', values)
+      localStorage.setItem('clicado', value)
 
       alert('foi clicado')
     }
