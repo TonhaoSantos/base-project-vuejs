@@ -9758,10 +9758,10 @@ source-map@^0.7.3:
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
 
-spacetime@^6.12.5:
-  version "6.12.5"
-  resolved "https://registry.yarnpkg.com/spacetime/-/spacetime-6.12.5.tgz#eccb2c49a45016b8d41f79bd97ac4dc4e0d4a752"
-  integrity sha512-6TZXbkG23RCpu6L955rLH3SaPoFpl75dB/lumRnop8VTNf6Ui9S+Bn0p8Hwv6xEXKSYTxNCj4avTuoVEyWNwIg==
+spacetime@^6.16.0:
+  version "6.16.1"
+  resolved "https://registry.yarnpkg.com/spacetime/-/spacetime-6.16.1.tgz#e032dc77bea494367a7a321a03458ebbf8f625b0"
+  integrity sha512-+aK5oTrCCfXZsg73NEoy3V2cLa0xY3obddFNbWSJ8UcbuPb7f8zWOV4vH3hEAncznUJQqA7tGHAuVR4TysfgIA==
 
 spdx-correct@^3.0.0:
   version "3.1.1"
@@ -10894,10 +10894,8 @@ watchpack@^1.7.4:
   resolved "https://registry.npm.taobao.org/watchpack/download/watchpack-1.7.5.tgz?cache=0&sync_timestamp=1612715916777&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwatchpack%2Fdownload%2Fwatchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
